@@ -1,4 +1,6 @@
 from fastai.vision.all import *
+from fastai.callback.mixup import MixUp
+from fastai.metrics import F1Score, Precision, Recall
 from huggingface_hub import hf_hub_download
 import gradio as gr
 
