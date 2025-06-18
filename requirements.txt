@@ -1,0 +1,5 @@
+fastai==2.7.19
+torch==1.13.1
+torchvision==0.14.1
+gradio
+huggingface_hub
