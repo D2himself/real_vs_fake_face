@@ -1,6 +1,7 @@
+# Required packages
 fastai==2.7.19
-torch==1.13.1
-torchvision==0.14.1
-numpy<2
-gradio
-huggingface_hub
+torch==2.6.0
+torchvision==0.21.0
+numpy<2.0
+gradio==5.31.0
+
