@@ -19,7 +19,10 @@ def classify_image(img):
     return {learn.dls.vocab[i]: float(probs[i]) for i in range(len(probs))}
 
 # Optional example images (must exist in the repo)
-examples = ["real_face.jpg", "fake_face_1.jpg"]
+examples = [
+    ["https://huggingface.co/spaces/Omokemi/real_vs_face_face/resolve/main/fake_face_1.jpg"],
+    ["https://huggingface.co/spaces/Omokemi/real_vs_face_face/resolve/main/real_face.jpg"]
+]
 
 # Create Gradio UI
 demo = gr.Interface(
@@ -34,3 +37,4 @@ demo = gr.Interface(
 # Run locally or in HF Space
 if __name__ == "__main__":
     demo.launch()
+

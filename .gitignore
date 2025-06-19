@@ -1,0 +1,19 @@
+# Ignore model and binary files
+*.pkl
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore virtual environments
+.venv/
+
+# Ignore Mac system files
+.DS_Store
+
